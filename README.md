@@ -5,7 +5,7 @@ An automated, self-healing pipeline that scrapes the latest engineering articles
 ## 🏗️ Architecture (Prompt-to-Production)
 1. **Data Ingestion:** Bright Data's Scraper Studio (`POST /dca/trigger`) extracts titles, summaries, and URLs from public engineering blogs.
 2. **Orchestration:** A Node.js backend fetches the structured JSON asynchronously.
-3. **Synthesis:** The Gemini 1.5 Flash API processes the technical data and generates a professional, formatted LinkedIn post with hooks and hashtags.
+3. **Synthesis:** The Gemini 3.5 Flash API processes the technical data and generates a professional, formatted LinkedIn post with hooks and hashtags.
 
 ## 🛠️ Setup Instructions
 1. Clone the repository.
